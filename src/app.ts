@@ -16,13 +16,15 @@ if (inputVideosIds) {
     youtubeVideoQuality: "highestaudio",
   });
   youtubeMp3Downloader.on("finished", function (err, data) {
-    console.log(JSON.stringify(data));
+    console.log(`Finished downloading \"${data.videoTitle}\"`);
   });
   youtubeMp3Downloader.on("error", function (error) {
     console.log(error);
   });
   youtubeMp3Downloader.on("progress", function (progress) {
-    console.log(JSON.stringify(progress));
+    console.log(
+      `${progress.videoId} - ${progress.progress.percentage.toFixed(2)}%`
+    );
   });
 
   for (const videoId of videosIds) {
