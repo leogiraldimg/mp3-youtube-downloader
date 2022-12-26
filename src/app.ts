@@ -13,6 +13,7 @@ if (inputVideosIds) {
     outputPath: inputTargetPath || __dirname.replace("/src", ""),
     progressTimeout: 2000,
     queueParallelism: 1,
+    youtubeVideoQuality: "highestaudio",
   });
   youtubeMp3Downloader.on("finished", function (err, data) {
     console.log(JSON.stringify(data));
