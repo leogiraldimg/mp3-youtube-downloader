@@ -1,0 +1,22 @@
+{
+  "name": "mp3-youtube-downloader",
+  "version": "1.0.0",
+  "description": "Download MP3 files from YouTube videos",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "ts-node ./src/app.ts"
+  },
+  "author": {
+    "email": "leogiradimg@gmail.com",
+    "name": "Leonardo Giraldi Moreno Giuranno",
+    "url": "https://github.com/leogiraldimg"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.47.0",
+    "@typescript-eslint/parser": "^5.47.0",
+    "eslint": "^8.30.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}
