@@ -21,6 +21,7 @@
     "typescript": "^4.9.4"
   },
   "dependencies": {
+    "node-id3": "^0.2.5",
     "prompt-sync": "^4.2.0",
     "youtube-mp3-downloader": "^0.7.11"
   }
